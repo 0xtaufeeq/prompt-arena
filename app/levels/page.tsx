@@ -31,9 +31,9 @@ const levels = [
   {
     id: 4,
     title: "Level 4: Expert",
-    description: "Coming soon - Master-level challenges",
-    status: "locked",
-    tasks: 0,
+    description: "Master-level creative challenges with cinematic reconstruction and brand content creation",
+    status: "available",
+    tasks: 2,
   },
 ]
 

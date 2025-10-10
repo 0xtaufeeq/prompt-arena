@@ -193,30 +193,42 @@ export default function HeroGeometric() {
           </motion.div>
 
           <motion.div custom={3} variants={buttonVariants} initial="hidden" animate="visible">
-            <Button
-              asChild
-              size="lg"
-              className="h-12 md:h-14 px-8 md:px-10 text-base md:text-lg font-semibold bg-white hover:bg-white/90 text-black shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              <a
-                href="https://unstop.com/o/FMlUbLT"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="gap-2"
+            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
+              <Button
+                asChild
+                size="lg"
+                className="h-12 md:h-14 px-8 md:px-10 text-base md:text-lg font-semibold bg-white hover:bg-white/90 text-black shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                <span>Register Now</span>
-                <motion.div
-                  animate={{ x: [0, 5, 0] }}
-                  transition={{
-                    duration: 1.5,
-                    repeat: Number.POSITIVE_INFINITY,
-                    ease: "easeInOut",
-                  }}
+                <a
+                  href="https://unstop.com/o/FMlUbLT"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="gap-2"
                 >
-                  <ArrowRight className="w-5 h-5" />
-                </motion.div>
-              </a>
-            </Button>
+                  <span>Register Now</span>
+                  <motion.div
+                    animate={{ x: [0, 5, 0] }}
+                    transition={{
+                      duration: 1.5,
+                      repeat: Number.POSITIVE_INFINITY,
+                      ease: "easeInOut",
+                    }}
+                  >
+                    <ArrowRight className="w-5 h-5" />
+                  </motion.div>
+                </a>
+              </Button>
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="h-12 md:h-14 px-8 md:px-10 text-base md:text-lg font-semibold bg-white/10 border-white/30 hover:bg-white/20 hover:border-white/40 text-white shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                <a href="/levels" className="gap-2">
+                  <span>View Problem Statements</span>
+                </a>
+              </Button>
+            </div>
           </motion.div>
 
           <motion.div

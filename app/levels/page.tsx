@@ -24,9 +24,9 @@ const levels = [
   {
     id: 3,
     title: "Level 3: Advanced",
-    description: "Coming soon - Complex multi-step reasoning",
-    status: "locked",
-    tasks: 0,
+    description: "Complex data analysis with web scraping, statistical analysis, and hypothesis testing",
+    status: "available",
+    tasks: 2,
   },
   {
     id: 4,

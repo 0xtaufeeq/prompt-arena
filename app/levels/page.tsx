@@ -17,9 +17,9 @@ const levels = [
   {
     id: 2,
     title: "Level 2: Intermediate",
-    description: "Coming soon - Advanced prompting techniques",
-    status: "locked",
-    tasks: 0,
+    description: "Advanced analysis with defect identification and strategic SWOT analysis tasks",
+    status: "available",
+    tasks: 2,
   },
   {
     id: 3,
